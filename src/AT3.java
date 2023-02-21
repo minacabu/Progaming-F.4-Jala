@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class AT3 {
-
     public static int[][] matrix = new int[3][3];
     public static int Determining(int newM[][]){
         int n = matrix.length;
@@ -28,7 +27,6 @@ public class AT3 {
             }
             det *= matrix[i][i];
         }
-
         return det;
     }
     public static int Symmetric(int matrix[][]){
@@ -45,7 +43,6 @@ public class AT3 {
 
         return 1;
     }
-
     public static void main(String[] args){
         Scanner read = new Scanner(System.in);
         for (int i = 0; i < matrix.length; i++){
