@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class AT3 {
     public static int[][] matrix = new int[3][3];
-    public static int Determining(int newM[][]){
+    public static int Determining(int matrix[][]){
         int n = matrix.length;
         int det = 1;
         for (int i = 0; i < n; i++) {
@@ -51,7 +51,7 @@ public class AT3 {
                 matrix[i][j] = read.nextInt();
             }
         }
-        for(int i=0; i< matrix.length; i++){
+        for (int i=0; i< matrix.length; i++){
             for (int j=0; j< matrix.length; j++){
                 System.out.print("["+matrix[i][j]+"]"+"\t");
             }System.out.println();
